@@ -11,7 +11,7 @@ This week we introduced the programming language of the Internet, JavaScript. Wi
 
 As always, start off by forking and cloning this repository from GitHub. Open the code up in Atom to get started.
 
-Remember `console.log()` is your friend and you can use it in conjunction with the browser console to see the output of your code as you go (just like you did to see your 'Hello World' last week!).
+<!-- Remember `console.log()` is your friend and you can use it in conjunction with the browser console to see the output of your code as you go (just like you did to see your 'Hello World' last week!). -->
 
 ### Files Provided
 
