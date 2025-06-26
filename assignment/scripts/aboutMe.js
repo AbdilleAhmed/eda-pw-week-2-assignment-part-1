@@ -11,7 +11,7 @@ console.log(fullName)
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 5 ;
+let luckyNumber = 5;
 console.log(luckyNumber)
 
 // 5 - Create a variable `introduction` and using the variables from above,
@@ -48,9 +48,9 @@ let result;
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-if (adventurous){
-result = "adventures are great"
-}else{
+if (adventurous) {
+  result = "adventures are great"
+} else {
   result = "how about we stay at home"
 }
 console.log(result)
@@ -61,8 +61,8 @@ console.log(result)
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
 let diceRoll = "Try again later."
-if(luckyNumber ==2 && adventurous){
- diceRoll = "Roll the Dice"
+if (luckyNumber === 2 && adventurous) {
+  diceRoll = "Roll the Dice"
 };
 
 
@@ -75,14 +75,14 @@ if(luckyNumber ==2 && adventurous){
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 let petStatus
-if(pets<allowedPets){
+if (pets < allowedPets) {
   petStatus = "i can have more pets"
-}else if(pets = allowedPets){
-  petStatus ="i have enough pets"
-}else if (pets > allowedPets){
-  petStatus ="i have enough pets"
+} else if (pets = allowedPets) {
+  petStatus = "i have enough pets"
+} else if (pets > allowedPets) {
+  petStatus = "i have enough pets"
 }
-  
+
 
 
 // STRETCH GOALS:
@@ -93,9 +93,9 @@ if(pets<allowedPets){
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
 let mostPets;
-if (pets > friendsPets){
+if (pets > friendsPets) {
   mostPets = pets
-}else{
+} else {
   mostPets = friendsPets
 }
 
@@ -114,25 +114,26 @@ switch (luckyResult) {
     console.log(`first is the worst`)
     break;
   case 2:
-      console.log(`Second is the best" if your lucky number is 2`)
+    console.log(`Second is the best" if your lucky number is 2`)
     break;
-    case 3:
-      console.log(`Third is the one with the polka dot dress" if your lucky number is 3`)
+  case 3:
+    console.log(`Third is the one with the polka dot dress" if your lucky number is 3`)
     break;
 
   default:
     console.log("Luck is what happens when preparation meets opportunity")
-    
+
 }
 console.log(luckyResult)
 
-// 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+  // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
 
 
+let result1 = (adventurous) ? "adventures are great" : "how about we stay at home";
+console.log(result1)
 
-
- (adventurous) ? "adventures are great" : "how about we stay at home" ;
+  
 
 
 
